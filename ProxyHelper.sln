@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyHelper", "ProxyHelper\ProxyHelper.csproj", "{C6B0E363-D2FE-4BB7-B074-C9DB1185403E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyHelper.Handlers", "ProxyHelper.Handlers\ProxyHelper.Handlers.csproj", "{5375FDEC-7CE3-4828-B2C1-A679736830F3}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,10 +13,6 @@ Global
 		{C6B0E363-D2FE-4BB7-B074-C9DB1185403E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6B0E363-D2FE-4BB7-B074-C9DB1185403E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6B0E363-D2FE-4BB7-B074-C9DB1185403E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5375FDEC-7CE3-4828-B2C1-A679736830F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5375FDEC-7CE3-4828-B2C1-A679736830F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5375FDEC-7CE3-4828-B2C1-A679736830F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5375FDEC-7CE3-4828-B2C1-A679736830F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
