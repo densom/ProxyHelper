@@ -3,3 +3,6 @@
 *.suo
 *.user
 *.Publish.xml
+_ReSharper.*
+*/obj/
+*/bin/

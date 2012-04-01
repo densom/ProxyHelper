@@ -19,7 +19,7 @@ namespace ProxyHelper
         private void Process(HttpContext context)
         {
             var url = HttpUtility.UrlDecode(context.Request["url"]);
-            var proxy = new WebProxy(@"http://proxy.sherwinproxy.com", true, null, new NetworkCredential(CM.AppSettings["ProxyUser"], CM.AppSettings["ProxyPassword"]));
+            var proxy = new WebProxy(CM.AppSettings["ProxyUrl"], true, null, new NetworkCredential(CM.AppSettings["ProxyUser"], CM.AppSettings["ProxyPassword"]));
 
             using (var client = new WebClient())
             {
