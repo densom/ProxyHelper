@@ -24,9 +24,21 @@ namespace ProxyHelper
             using (var client = new WebClient())
             {
                 client.Proxy = proxy;
-                var data = client.DownloadString(url);
+                try
+                {
+                    var data = client.DownloadString(url);
+                    context.Response.Write(data);
+                }
+                catch (Exception e)
+                {
+                    Response.Write("Unable to connect to proxy.");
+                    Response.Write("<br />");
+                    Response.Write(e.Message);
+                   
+                }
+                
 
-                context.Response.Write(data);
+                
             }
         }
     }
